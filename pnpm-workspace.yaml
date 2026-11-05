@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+sharedWorkspaceLockfile: true
+
+allowBuilds:
+  '@prisma/engines': true
+  prisma: true
